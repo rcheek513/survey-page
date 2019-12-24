@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <title>surveypage</title>
+    <head> 
+<H1 id= "title"> Free code camp survey</H1>
+ <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <p id= "description"> This is a survey to detemine surveyed groups intrest in college</p>
+   <div>
+       <div id= "survey-form">
+           <label for=>Name</label>
+           <input type=text name="name"id="name-label" placeholder= "your name" required >
+           <label for=>email</label>
+           <input type="email" name="email"id="email-label" placeholder= "youremail@email.com" required>
+           <label for=> your age </label> 
+           <input type= number name= "age" id= "number-label" placeholder= 1-99 min=1 max=99 required> 
+           </div>
+           
+       <div>
+           <label for="grade">grade</label>
+        <select name= "grade" id=" grade"> 
+           <option value="k-8th">k-8th</option>
+           <option label= "9th-12th">(9th-12th</option>
+           </select>
+       </div>
+         <label>
+               <H3>going to college?</H3>
+               <input type= "radio" name= "college yes-no">yes
+               <input type= "radio" name= "college yes-no">no
+               <input type= "radio" name= "college yes-no">later date
+              <input type="date" name= "start date" id= "start date" placeholder= date min=today max="1year">
+       
+    <div>
+        <p>do you have interest in any of these subjects?</p>
+        <input type="checkbox" name="subject">medicine
+        <input type="checkbox" name="subject">teacher
+        <input type="checkbox" name="subject">engineer
+        <input type="checkbox" name="subject">general studies
+    
+    <br>Or input your interests below </br>  
+    
+           
+           <textarea id= "other" name= "other" >I would like to learn about</textarea>    </div>
+           <div><button type="submit">submit</button>
+            <button type= "reset">reset</button>
+    </div>
+         </div>
+        </form>
+</body>
+
+</html>
